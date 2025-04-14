@@ -76,4 +76,3 @@ project-folder/
 <br>│── README.md
 <br>│── 01_Code.ipynb
 <br>│── 02_Data.csv
-<br>│── 03_Slides.pdf
