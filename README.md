@@ -1,6 +1,8 @@
 # Predicting HDB Resale Prices in Singapore
 By: Chee Qian Wen, Delwyn Goh, Elaine Lee, Jason Ng, Kathleen Loke
 
+![image](https://github.com/user-attachments/assets/b5782f8b-c421-4c0c-ab4e-b3fbb8fec072)
+
 ## Description
 The HDB resale market in Singapore has become increasingly dynamic, with shifting buyer preferences, evolving government regulations, and fluctuating property prices. As competition grows, homebuyers are no longer making decisions based purely on proximity to amenities. Instead, factors such as flat size, remaining lease, accessibility to key business districts, and regional demand trends are playing a crucial role in determining resale value.
 
