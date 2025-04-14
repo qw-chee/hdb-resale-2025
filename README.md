@@ -7,7 +7,7 @@ To stay ahead in this evolving landscape, real estate agents need data-driven in
 
 ## Data Dictionary
 The following table details the data and their descriptions:
-**| Column Name	| Description	| Data Type |**
+| Column Name	| Description	| Data Type |
 | --- | --- | --- | 
 | id | identification no. of transaction | Integer |
 | resale_price | the property's sale price in Singapore dollars | Integer |
