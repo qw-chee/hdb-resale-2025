@@ -11,48 +11,22 @@ The following table details the data and their descriptions:
 | --- | --- | --- | 
 | id | identification no. of transaction | Integer |
 | resale_price | the property's sale price in Singapore dollars | Integer |
-| Tranc_YearMonth | year and month of the resale transaction | Integer |
 | town | HDB township where the flat is located | Integer |
 | flat_type | type of the resale flat unit | String |
-| storey_range | floor level (range) of the resale flat unit | String |
-| floor_area_sqm | floor area of the resale flat unit in square metres | Integer |
-| lease_commence_date | commencement year of the flat unit's 99-year lease | Integer |
 | mid_storey | median value of storey_range | Integer |
 | floor_area_sqft | floor area of the resale flat unit in square feet | Float |
 | max_floor_lvl | highest floor of the resale flat | Integer |
-| commercial | boolean value if resale flat has commercial units in the same block | Boolean |
-| total_dwelling_units | total number of residential dwelling units in the resale flat | Integer |
-| Latitude | Latitude based on postal code | Float |
-| Longitude | Longitude based on postal code | Float |
 | Mall_Nearest_Distance | distance (in metres) to the nearest mall | Float |
-| Mall_Within_500m | number of malls within 500 metres | Integer |
-| Mall_Within_2km | number of malls within 2 kilometres | Integer |
 | Hawker_Nearest_Distance | distance (in metres) to the nearest hawker centre | Float |
-| Hawker_Within_500m | number of hawker centres within 500 metres | Integer |
-| Hawker_Within_2km | number of hawker centres within 2 kilometres | Integer |
-| hawker_market_stalls | number of hawker and market stalls in the nearest hawker centre | Integer |
 | mrt_nearest_distance | distance (in metres) to the nearest MRT station | Float |
-| bus_interchange | boolean value if the nearest MRT station is also a bus interchange | Boolean |
-| mrt_interchange | boolean value if the nearest MRT station is a train interchange station | Boolean |
 | bus_stop_nearest_distance | distance (in metres) to the nearest bus stop | Float |
 | pri_sch_nearest_distance | distance (in metres) to the nearest primary school | Float |
-| pri_sch_name | name of the nearest primary school | String |
-| pri_sch_affiliation | boolean value if the nearest primary school has a secondary school affiliation | Boolean |
 | sec_sch_nearest_dist | distance (in metres) to the nearest secondary school | Float |
 | cbd_distance | distance to Downtown Core (1.2867° N, 103.8535° E) by each transaction co-ordinates in kilometers | Float |
-| infl_rate | inflation rate reflecting the overall rise in the cost of living in Singapore | Float |
 | cpi | consumer price index | Float |
-| mature | if resale flat is classified as Mature (1) or Non-Mature estate (0) | Boolean |
-| hdb_age | number of years from lease_commence_date to Tranc_Year | Integer |
 | remaining_lease | number of years left before the lease expires | Integer |
-| rental_ratio | ratio of rental transactions across different room types to the total number of dwelling units in the resale flat | Float |
-| remaining_lease_2021 | number of years left before the lease expires | Integer |
-| amenities_within_500m | total number of malls and hawkers within 500 metres | Integer |
 | amenities_within_1km | total number of malls and hawkers within 1 kilometre | Integer |
-| amenities_within_2km | total number of malls and hawkers within 2 kilometres | Integer |
-| facilities_within_500m | boolean value if resale flat has all 4 - Mall, Hawker, MRT and bus_stop within 500m | Boolean |
 | region | classification of HDB towns into regions (C, E, N, NE, W region) | String |
-| sora | monthly end-of-period bank interest rates data from Sora | Float |
 | sora_3mth | 3 month average bank interest rates data from Sora | Float |
 
 ## Results
@@ -101,4 +75,4 @@ project-folder/
 <br>│── README.md
 <br>│── 01_Code.ipynb
 <br>│── 02_Data.csv
-<br>│── 04_Slides.pdf
+<br>│── 03_Slides.pdf
